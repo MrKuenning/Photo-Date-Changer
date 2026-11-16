@@ -1,6 +1,18 @@
 # Photo Date Changer
 
-A clean, fast PyQt6 desktop app for quickly setting dates on old scanned photos—individually or in batches—when you may only know a decade, year, month, or exact day.
+<p align="center">
+  <img src="assets/icon.png" width="160" height="160" alt="Photo Date Changer App Icon" />
+</p>
+
+A clean, fast PyQt6 desktop application for quickly setting dates on old scanned photos—individually or in batches—when you may only know a decade, year, month, or exact day.
+
+![Version](https://img.shields.io/badge/version-1.1-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![PyQt6](https://img.shields.io/badge/UI-PyQt6-green)
+![pyexiv2](https://img.shields.io/badge/EXIF-pyexiv2-orange)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
+
+---
 
 ## Project Structure
 
@@ -12,7 +24,8 @@ A clean, fast PyQt6 desktop app for quickly setting dates on old scanned photos�
 │   ├── metadata.py
 │   └── ui_main.py
 ├── assets/                                   # Icons and static assets
-│   └── app_icon.ico
+│   ├── app_icon.ico
+│   └── icon.png
 ├── releases/                                 # Compiled executables & build script
 │   └── Compile EXE.bat
 ├── Install - Photo Date Changer (Windows).bat
